@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2D2F2F;
+    overflow: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 60px;
+    background-color: rgba(69, 71, 71, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+::placeholder {
+    font-size: 1.25rem;
+    /* padding-left: 10px; */
+}
+
+.circle {
+    background-color: #88ED48;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.circle-one {
+    left: 10%;
+    top: -150px;
+    width: 500px;
+    height: 500px;
+}
+
+.circle-two {
+    width: 600px;
+    height: 600px;
+    right: -100px;
+    top: -100px;
+}
+
+.circle-three {
+    width: 400px;
+    height: 400px;
+    bottom: -175px;
+    right: 300px;
+}
+
+.circle-four {
+    width: 250px;
+    height: 250px;
+    bottom: 60px;
+    left: 200px;
+}
+
+.logo {
+    width: 50px;
+    margin: 5px;
+}
+
+.nav-list {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    display: inline;
+}
+
+.login {
+    background-color: rgba(181, 181, 181, 0.91);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    bottom: 170px;
+    right: 100px;
+    z-index: 3;
+    border-radius: 40px;
+}
+
+.login h3 {
+    font-weight: 100;
+    font-size: 1.9rem;
+    margin: 30px 0 30px 40px;
+    color: #333;
+}
+
+.login-form input {
+    width: 87.5%;
+    height: 70px;
+    border-radius: 20px;
+    /* border: 1px solid #333; */
+    border: none;
+    margin-left: 35px;
+}
+
+input[type=text],
+input[type=password] {
+    padding-left: 20px;
+    font-size: 1.25rem;
+}
+
+.login-form input:nth-child(1) {
+    margin-bottom: 1.5rem;
+}
+
+.login-form .submit {
+    width: 35%;
+    height: 60px;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    background-color: rgba(99, 255, 0, .9);
+}
+
+.submit:hover {
+    background: #333;
+    color: rgba(99, 255, 0, .9);
+}
+
+.tagline {
+    color: white;
+    margin-left: 50px;
+    margin-top: 260px;
+}
+
+.tagline:hover {
+    cursor: default;
+}
+
+.tagline h1 {
+    font-size: 4rem;
+    width: 50%;
+}
+
+.tagline h2 {
+    font-size: 4rem;
+    width: 50%;
+    margin-top: -50px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(99, 255, 0, 1);
+}
+
+.tagline h1 span {
+    font-family: 'Times New Roman';
+}
